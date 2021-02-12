@@ -10075,7 +10075,7 @@ hr.light {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgba(119, 201, 212, 0.5) 0%, rgba(87, 188, 144, 0.5) 100%), url("../assets/img/bg-masthead.jpg");
+  background: linear-gradient(to bottom, rgba(1, 82, 73, 0.5) 0%, #015249 100%), url("../assets/img/bg-masthead.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -10150,10 +10150,6 @@ header.masthead h1 {
 #projetos-img .container-fluid .projetos-box, #projetos-img .container-sm .projetos-box, #projetos-img .container-md .projetos-box, #projetos-img .container-lg .projetos-box, #projetos-img .container-xl .projetos-box {
   position: relative;
   display: block;
-}
-#projetos-img .container-fluid .projetos-box img, #projetos-img .container-sm .projetos-box img, #projetos-img .container-md .projetos-box img, #projetos-img .container-lg .projetos-box img, #projetos-img .container-xl .projetos-box img {
-  width: 650px;
-  height: 350px;
 }
 #projetos-img .container-fluid .projetos-box .projetos-box-caption, #projetos-img .container-sm .projetos-box .projetos-box-caption, #projetos-img .container-md .projetos-box .projetos-box-caption, #projetos-img .container-lg .projetos-box .projetos-box-caption, #projetos-img .container-xl .projetos-box .projetos-box-caption {
   display: flex;
