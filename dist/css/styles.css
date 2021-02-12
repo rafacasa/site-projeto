@@ -10151,10 +10151,6 @@ header.masthead h1 {
   position: relative;
   display: block;
 }
-#projetos-img .container-fluid .projetos-box img, #projetos-img .container-sm .projetos-box img, #projetos-img .container-md .projetos-box img, #projetos-img .container-lg .projetos-box img, #projetos-img .container-xl .projetos-box img {
-  width: 650px;
-  height: 350px;
-}
 #projetos-img .container-fluid .projetos-box .projetos-box-caption, #projetos-img .container-sm .projetos-box .projetos-box-caption, #projetos-img .container-md .projetos-box .projetos-box-caption, #projetos-img .container-lg .projetos-box .projetos-box-caption, #projetos-img .container-xl .projetos-box .projetos-box-caption {
   display: flex;
   align-items: center;
