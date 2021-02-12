@@ -37,13 +37,17 @@ html(lang='en')
                 #navbarResponsive.collapse.navbar-collapse
                     ul.navbar-nav.ml-auto.my-2.my-lg-0
                         li.nav-item
-                            a.nav-link.js-scroll-trigger(href='#about') Sobre
+                            a.nav-link.js-scroll-trigger(href='#sobre') Sobre
                         li.nav-item
-                            a.nav-link.js-scroll-trigger(href='#services') Serviços
+                            a.nav-link.js-scroll-trigger(href='#comofunciona') Como funciona
+                        li.nav-item
+                            a.nav-link.js-scroll-trigger(href='#servicos') Serviços
                         li.nav-item
                             a.nav-link.js-scroll-trigger(href='#portfolio') Equipamentos
                         li.nav-item
-                            a.nav-link.js-scroll-trigger(href='#contact') Contato
+                            a.nav-link.js-scroll-trigger(href='#projetos') Projetos
+                        li.nav-item
+                            a.nav-link.js-scroll-trigger(href='#contato') Contato
 
         // Masthead
         header.masthead
@@ -58,7 +62,7 @@ html(lang='en')
                         //a.btn.btn-primary.btn-xl.js-scroll-trigger(href='#about') Find Out More
 
         // About - Sobre
-        section#about.page-section.bg-primary
+        section#sobre.page-section.bg-primary
             .container
                 .row.justify-content-center
                     .col-lg-8.text-center
@@ -70,32 +74,56 @@ html(lang='en')
 
         // ADICIONAR COMO FUNCIONA
 
-        // Services - Serviços
-        section#services.page-section
+        section#comofunciona.page-section
             .container
-                h2.text-center.mt-0 Serviços
+                h2.text-center.mt-0 Como funciona
                 hr.divider.my-4
+                .row
+                    .col-lg-6.col-md-6.text-center
+                        .mt-5
+                            i.fas.fa-4x.fa-university.text-primary.mb-4
+                            h3.h4.mb-2 Projetos institucionais:
+                            p.text-muted.mb-0 
+                                | Se o seu projeto/ideia for vinculado ao IFRS ou a outra instituição de ensino, o uso da infraestrutura do laboratório é livre e sem custos. 
+                                a.js-scroll-trigger(href='#contato') Consulte nossos horários de atendimento 
+                                | e apareça para aprender a utilizar os equipamentos e realizar seu projeto com as próprias mãos.
+                    .col-lg-6.col-md-6.text-center
+                        .mt-5
+                            i.fas.fa-4x.fa-user.text-primary.mb-4
+                            h3.h4.mb-2 Projetos pessoais, comerciais e industriais:
+                            div 
+                                | Se o seu projeto/ideia for de cunho pessoal, comercial ou industrial, teremos o prazer de prototipar sua ideia mediante a prestação de um serviço. 
+                                a.js-scroll-trigger(href='#contato') Entre em contato conosco 
+                                | para a elaboração de um orçamento.
+                    
+
+
+        // Services - Serviços
+        section#servicos.page-section.bg-primary
+            .container
+                h2.text-white.text-center.mt-0 Serviços
+                hr.light.divider.my-4
                 .row
                     .col-lg-3.col-md-6.text-center
                         .mt-5
-                            i.fas.fa-4x.fa-cube.text-primary.mb-4
-                            h3.h4.mb-2 Impressão 3D
-                            p.text-muted.mb-0 Fabricação de peças em ABS e PLA
+                            i.fas.fa-4x.fa-cube.text-white.mb-4
+                            h3.text-white.h4.mb-2 Impressão 3D
+                            p.text-white.mb-0 Fabricação de peças em ABS e PLA
                     .col-lg-3.col-md-6.text-center
                         .mt-5
-                            i.fas.fa-4x.fa-burn.text-primary.mb-4
-                            h3.h4.mb-2 Corte a Laser
-                            p.text-muted.mb-0 Corte e gravação em MDF, acrílico, PET, PETG, papelão, EVA, etc. com espessura até 9 mm
+                            i.fas.fa-4x.fa-burn.text-white.mb-4
+                            h3.text-white.h4.mb-2 Corte a Laser
+                            p.text-white.mb-0 Corte e gravação em MDF, acrílico, PET, PETG, papelão, EVA, etc. com espessura até 9 mm
                     .col-lg-3.col-md-6.text-center
                         .mt-5
-                            i.fas.fa-4x.fa-tools.text-primary.mb-4
-                            h3.h4.mb-2 Fresadora CNC
-                            p.text-muted.mb-0 Fresamento em madeira e polímeros em geral
+                            i.fas.fa-4x.fa-tools.text-white.mb-4
+                            h3.text-white.h4.mb-2 Fresadora CNC
+                            p.text-white.mb-0 Fresamento em madeira e polímeros em geral
                     .col-lg-3.col-md-6.text-center
                         .mt-5
-                            i.fas.fa-4x.fa-microchip.text-primary.mb-4
-                            h3.h4.mb-2 Eletrônica
-                            p.text-muted.mb-0 Estação de solda, osciloscópio, multímetro, gerador de funções; Componentes eletrônicos diversos; Plataformas de prototipagem como Arduino, ESP 32 e Raspberry PI e seus periféricos (sensores e atuadores)
+                            i.fas.fa-4x.fa-microchip.text-white.mb-4
+                            h3.text-white.h4.mb-2 Eletrônica
+                            p.text-white.mb-0 Estação de solda, osciloscópio, multímetro, gerador de funções; Componentes eletrônicos diversos; Plataformas de prototipagem como Arduino, ESP 32 e Raspberry PI e seus periféricos (sensores e atuadores)
 
         // Portfolio - Equipamentos
         div#portfolio
@@ -162,7 +190,7 @@ html(lang='en')
                 a.btn.btn-light.btn-xl(href='https://startbootstrap.com/theme/creative/') Download Now!
 
         // Contact - Contato
-        section#contact.page-section
+        section#contato.page-section
             .container
                 .row.justify-content-center
                     .col-lg-8.text-center
@@ -174,10 +202,10 @@ html(lang='en')
                     .col-lg-4.ml-auto.text-center.mb-5.mb-lg-0
                         i.fas.fa-map-marked-alt.fa-3x.mb-3.icon-botton
                         div Sala 207A, IFRS Campus Farroupilha, Av. São Vicente, 785, Bairro Cinquentenário, CEP: 95174-274, Farroupilha/RS
-                    .col-lg-4.mr-auto.text-center
+                    .col-lg-4.mr-auto.text-center.mb-5.mb-lg-0
                         i.fas.fa-envelope.fa-3x.mb-3.icon-botton
                         a.d-block(href='mailto:idealab@farroupilha.ifrs.edu.br') idealab@farroupilha.ifrs.edu.br
-                    .col-lg-4.ml-auto.text-center.mb-5.mb-lg-0
+                    .col-lg-4.ml-auto.text-center
                         i.fas.fa-calendar-alt.fa-3x.mb-3.icon-botton
                         div Horário de atendimento de xxxx a xxxx de 2021: de Seg. a Sex, das xx h às xx h, exceto feriados e dias não letivos no IFRS.
 
