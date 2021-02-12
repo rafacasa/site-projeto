@@ -10140,6 +10140,50 @@ header.masthead h1 {
   opacity: 1;
 }
 
+#projetos.page-section {
+  padding: 2rem 0;
+}
+
+#projetos-img .container-fluid, #projetos-img .container-sm, #projetos-img .container-md, #projetos-img .container-lg, #projetos-img .container-xl {
+  max-width: 1920px;
+}
+#projetos-img .container-fluid .projetos-box, #projetos-img .container-sm .projetos-box, #projetos-img .container-md .projetos-box, #projetos-img .container-lg .projetos-box, #projetos-img .container-xl .projetos-box {
+  position: relative;
+  display: block;
+}
+#projetos-img .container-fluid .projetos-box img, #projetos-img .container-sm .projetos-box img, #projetos-img .container-md .projetos-box img, #projetos-img .container-lg .projetos-box img, #projetos-img .container-xl .projetos-box img {
+  width: 650px;
+  height: 350px;
+}
+#projetos-img .container-fluid .projetos-box .projetos-box-caption, #projetos-img .container-sm .projetos-box .projetos-box-caption, #projetos-img .container-md .projetos-box .projetos-box-caption, #projetos-img .container-lg .projetos-box .projetos-box-caption, #projetos-img .container-xl .projetos-box .projetos-box-caption {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  opacity: 0;
+  color: #fff;
+  background: rgba(1, 82, 73, 0.9);
+  transition: opacity 0.25s ease;
+  text-align: center;
+}
+#projetos-img .container-fluid .projetos-box .projetos-box-caption .project-category, #projetos-img .container-sm .projetos-box .projetos-box-caption .project-category, #projetos-img .container-md .projetos-box .projetos-box-caption .project-category, #projetos-img .container-lg .projetos-box .projetos-box-caption .project-category, #projetos-img .container-xl .projetos-box .projetos-box-caption .project-category {
+  font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+#projetos-img .container-fluid .projetos-box .projetos-box-caption .project-name, #projetos-img .container-sm .projetos-box .projetos-box-caption .project-name, #projetos-img .container-md .projetos-box .projetos-box-caption .project-name, #projetos-img .container-lg .projetos-box .projetos-box-caption .project-name, #projetos-img .container-xl .projetos-box .projetos-box-caption .project-name {
+  font-size: 1.2rem;
+}
+#projetos-img .container-fluid .projetos-box:hover .projetos-box-caption, #projetos-img .container-sm .projetos-box:hover .projetos-box-caption, #projetos-img .container-md .projetos-box:hover .projetos-box-caption, #projetos-img .container-lg .projetos-box:hover .projetos-box-caption, #projetos-img .container-xl .projetos-box:hover .projetos-box-caption {
+  opacity: 1;
+}
+
 .text-white-75 {
   color: rgba(255, 255, 255, 0.75);
 }
